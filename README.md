@@ -32,7 +32,7 @@ Run registration server:
     ./keyreg.py ~/.ssh/authorized_keys
 
 
-In Trigger, enter in the registraion url, e.g. assuming server ip address is 192.168.1.1, enter in:
+In Trigger, enter in the registration url, e.g. assuming server ip address is 192.168.1.1, enter in:
 
     tcp://192.168.1.1:50007
 
@@ -42,5 +42,4 @@ address and port and omit the `tcp://` prefix.
 Older versions also need to specify registration URL before creating key.
 
 Once key is created, hit Register in Trigger app on Android.
-
 
