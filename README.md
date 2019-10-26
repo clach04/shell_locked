@@ -1,6 +1,6 @@
 # shell_locked
 
-Simple shell script for gpio control suitable for control from Android lock control app [Trigger](https://github.com/mwarning/trigger).
+Simple shell script for gpio control suitable for control from Android lock control app [Trigger](https://github.com/mwarning/trigger) in ssh mode. See https://github.com/clach04/pirest for https mode server.
 
 Assumes two pins:
 * lock/close
