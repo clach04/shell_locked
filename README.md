@@ -8,9 +8,15 @@ Assumes two pins:
 
 with momentary on each pin to actuate. Similar to https://github.com/h42i/d00r-key-server.
 
-Recommended for use with [Trigger](https://github.com/mwarning/trigger) in ssh mode.
+Recommended for use with Android [Trigger](https://github.com/mwarning/trigger) app in ssh mode.
 
-## Key Registration
+## Setup
+
+NOTE `door.sh` needs to be edited to set the GPIO pins.
+
+In addition it needs to be called in `setup` mode. If any other process access/changes the GPIO pins, e.g. a python script, setup needs to be ran again. Set and unset of GPIO pins will silently fail.
+
+## Key Registration Server for Trigger
 
 Can either perform regular ssh key generation/registration or make use of Trigger's key creation mode.
 
